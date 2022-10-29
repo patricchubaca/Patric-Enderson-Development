@@ -1,0 +1,85 @@
+body {
+
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin: 0 auto;
+
+}
+
+.cabecalhoPrincipal {
+  background-color: #FFF;
+  padding: 20px 0;
+}
+
+.cabecalhoPrincipal-titulo {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.cabecalhoPrincipal-titulo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cabecalhoPrincipal-nav-link {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #9799A6;
+  background-color: #FFF;
+  text-decoration: none;
+  transition: .5s;
+  display: block;
+
+  border-bottom: 1px solid #9799A6;
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+}
+
+
+.cabecalhoPrincipal-nav-link {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #9799A6;
+  background-color: #FFF;
+  text-decoration: none;
+  transition: .5s;
+  display: block;
+
+  border-bottom: 1px solid #9799A6;
+
+}
+
+.cabecalhoPrincipal-nav-link {
+  border-radius: 5px;
+  border: 1px solid #9799A6;
+  margin-left: 10px;
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+  color: #FFF;
+  background-color: #9799A6;
+}
+
+.container-principal {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../img/Rectangle.png);
+
+
+  background: linear-gradient(0deg, rgba(235, 8, 153, 0.973) 0%, rgba(80, 16, 177, 0.849) 86.98%);
+  height: calc(100vh - 100px);
+  display: flex;
+
+}
+
+p {
+  color: black;
+}
