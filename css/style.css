@@ -73,8 +73,8 @@ body {
   margin: 0 auto;
   background: url(../img/Rectangle.png);
 
-
-  background: linear-gradient(0deg, rgba(235, 8, 153, 0.973) 0%, rgba(80, 16, 177, 0.849) 86.98%);
+  background: linear-gradient(0deg, rgba(133, 26, 65, 0.843) 0%,
+      rgba(25, 8, 49, 0.849) 66.98%);
   height: calc(100vh - 100px);
   display: flex;
 
