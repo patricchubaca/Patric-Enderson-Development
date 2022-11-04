@@ -3,7 +3,13 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.container {
+h2 {
+  color: #FFF;
+  padding: 70px;
+  font-size: 40px;
+}
+
+.container-cabecalho {
   display: flex;
   justify-content: space-between;
   width: 94%;
@@ -82,4 +88,18 @@ body {
 
 p {
   color: black;
+}
+
+.conteudo-principal {
+  margin: 0 auto;
+  width: 70%;
+
+}
+
+.conteudo {
+  color: black;
+
+  font-size: 30px;
+  line-height: 49px;
+  padding: 20px;
 }
